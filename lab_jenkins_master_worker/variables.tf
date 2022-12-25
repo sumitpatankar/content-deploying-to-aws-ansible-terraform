@@ -5,7 +5,7 @@ variable "external_ip" {
 
 variable "instance-type" {
   type    = string
-  default = "t3.micro"
+  default = "t2.micro"
 }
 
 variable "profile" {
@@ -15,7 +15,7 @@ variable "profile" {
 
 variable "region-master" {
   type    = string
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable "region-worker" {
